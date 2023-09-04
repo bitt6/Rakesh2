@@ -646,13 +646,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton(
                 '🔍 sᴇᴀʀᴄʜ 🔍', switch_inline_query_current_chat=''),
             InlineKeyboardButton(
-                '🌼 ᴜᴘᴅᴀᴛᴇs 🌼', url='https://t.me/Trickyakash5213')
+                '🌼 ᴜᴘᴅᴀᴛᴇs 🌼', url='https://t.me/MOVIES_PROVIDE')
         ], [
             InlineKeyboardButton('🍄 ʜᴇʟᴘ 🍄', callback_data='help'),
             InlineKeyboardButton('🔰 ᴀʙᴏᴜᴛ 🔰', callback_data='about')
         ], [
             InlineKeyboardButton(
-                '💸 ᴄᴏɴɴᴇᴄᴛ ʏᴏᴜʀ sʜᴏʀᴛʟɪɴᴋ ғʀᴇᴇ 💸', url='https://t.me/joinnowearn/82')
+                '💸 ᴄᴏɴɴᴇᴄᴛ ʏᴏᴜʀ sʜᴏʀᴛʟɪɴᴋ ғʀᴇᴇ 💸', url='https://t.me/MOVIES_PROVIDE')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
