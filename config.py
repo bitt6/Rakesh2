@@ -85,11 +85,11 @@ P_TTI_SHOW_OFF = is_enabled((environ.get("P_TTI_SHOW_OFF", "True")), True)
 IMDB = is_enabled((environ.get("IMDB", "False")), False)
 SINGLE_BUTTON = is_enabled((environ.get("SINGLE_BUTTON", "True")), False)
 CUSTOM_FILE_CAPTION = environ.get(
-    "CUSTOM_FILE_CAPTION", "<b>📂 Nᴀᴍᴇ</b> : <i><b>{file_name}</b></i> \n\n <b>Mᴏᴠɪᴇ Cʜᴀɴɴᴇʟ Lɪɴᴋ</b> <b>[Mᴏᴠɪᴇs Pʀᴏᴠɪᴅᴇ](https://t.me/MOVIES_PROVIDE)</b>")
+    "CUSTOM_FILE_CAPTION", "<b>📂 Nᴀᴍᴇ</b> : <i><b>{file_name}</b></i> \n\n <b>Jᴏɪɴ Nᴏᴡ :</b> <b>[Actual thing](https://t.me/+LL0gCYlzDnRjYmY1)</b>")
 BATCH_FILE_CAPTION = environ.get(
-    "CUSTOM_FILE_CAPTION", "<b>📂 Nᴀᴍᴇ</b> : <i><b>{file_name}</b></i> \n\n <b>Mᴏᴠɪᴇ Cʜᴀɴɴᴇʟ Lɪɴᴋ</b> <b>[Mᴏᴠɪᴇs Pʀᴏᴠɪᴅᴇ](https://t.me/MOVIES_PROVIDE)</b>")
+    "CUSTOM_FILE_CAPTION", "<b>📂 Nᴀᴍᴇ</b> : <i><b>{file_name}</b></i> \n\n <b>Jᴏɪɴ Nᴏᴡ :</b> <b>[Actual thing](https://t.me/+LL0gCYlzDnRjYmY1)</b>")
 IMDB_TEMPLATE = environ.get(
-    "IMDB_TEMPLATE", "🎞️ ᴛɪᴛᴛʟᴇ :  {title} \n🎗️ ᴘᴏᴡᴇʀᴇᴅ ʙʏ : @Movies_Provide")
+    "IMDB_TEMPLATE", "🎞️ ᴛɪᴛᴛʟᴇ :  {title} \n🎗️ ᴘᴏᴡᴇʀᴇᴅ ʙʏ : @Actul_thing")
 LONG_IMDB_DESCRIPTION = is_enabled(
     environ.get("LONG_IMDB_DESCRIPTION", "False"), False)
 SPELL_CHECK_REPLY = is_enabled(environ.get("SPELL_CHECK_REPLY", "True"), True)
