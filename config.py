@@ -85,11 +85,11 @@ P_TTI_SHOW_OFF = is_enabled((environ.get("P_TTI_SHOW_OFF", "True")), True)
 IMDB = is_enabled((environ.get("IMDB", "False")), False)
 SINGLE_BUTTON = is_enabled((environ.get("SINGLE_BUTTON", "True")), False)
 CUSTOM_FILE_CAPTION = environ.get(
-    "CUSTOM_FILE_CAPTION", "ɴᴀᴍᴇ: <code>{file_name}</code> \n\n [😔 Join our channel and support us 😔](https://t.me/Mx7Movies)</b>")
+    "CUSTOM_FILE_CAPTION", "📂 Nᴀᴍᴇ : <code><i>{file_name}</i></code> \n\n [ Mᴏᴠɪᴇs Uᴘʟᴏᴀᴅᴇᴅ ʙʏ : Mᴏᴠɪᴇs Pʀᴏᴠɪᴅᴇ ](https://t.me/MOVIES_PROVIDE)\n[Mᴏᴠɪᴇ Rᴇϙᴜᴇsᴛ Gʀᴏᴜᴘ ](https://t.me/MOVIES_PROVIDE2)</b>")
 BATCH_FILE_CAPTION = environ.get(
-    "CUSTOM_FILE_CAPTION", "ɴᴀᴍᴇ: <code>{file_name}</code> \n\n [😔 Join our channel and support us 😔](https://t.me/Mx7Movies)</b>")
+    "CUSTOM_FILE_CAPTION", "📂 Nᴀᴍᴇ : <code><i>{file_name}</i></code> \n\n [ Mᴏᴠɪᴇs Uᴘʟᴏᴀᴅᴇᴅ ʙʏ : Mᴏᴠɪᴇs Pʀᴏᴠɪᴅᴇ ](https://t.me/MOVIES_PROVIDE)\n[Mᴏᴠɪᴇ Rᴇϙᴜᴇsᴛ Gʀᴏᴜᴘ ](https://t.me/MOVIES_PROVIDE2)</b>")
 IMDB_TEMPLATE = environ.get(
-    "IMDB_TEMPLATE", "🎞️ ᴛɪᴛᴛʟᴇ :  {title} \n🎗️ ᴘᴏᴡᴇʀᴇᴅ ʙʏ : @Mx7Movies")
+    "IMDB_TEMPLATE", "🎞️ ᴛɪᴛᴛʟᴇ :  {title} \n🎗️ ᴘᴏᴡᴇʀᴇᴅ ʙʏ : @Movies_Provide")
 LONG_IMDB_DESCRIPTION = is_enabled(
     environ.get("LONG_IMDB_DESCRIPTION", "False"), False)
 SPELL_CHECK_REPLY = is_enabled(environ.get("SPELL_CHECK_REPLY", "True"), True)
@@ -145,7 +145,7 @@ if SELF_DELETE == "0":
 # ---------------------» ᴅᴏᴡɴʟᴏᴀᴅ «--------------------- #
 
 DOWNLOAD_TEXT_NAME = "📥 HOW TO DOWNLOAD 📥"
-DOWNLOAD_TEXT_URL = "https://shrdsk.me/video/C9VIV2"
+DOWNLOAD_TEXT_URL = "https://t.me/MOVIES_PROVIDE/11"
 
 
 
@@ -153,7 +153,7 @@ DOWNLOAD_TEXT_URL = "https://shrdsk.me/video/C9VIV2"
 # ---------------------» ᴜɴᴅᴇʀ-ʙᴜᴛᴛᴏɴs «--------------------- #
 
 CAPTION_BUTTON = "JOIN MY CHANNEL"
-CAPTION_BUTTON_URL = "https://t.me/Mx7Movies"
+CAPTION_BUTTON_URL = "https://t.me/MOVIES_PROVIDE"
 
 
 
