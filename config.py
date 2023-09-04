@@ -85,9 +85,9 @@ P_TTI_SHOW_OFF = is_enabled((environ.get("P_TTI_SHOW_OFF", "True")), True)
 IMDB = is_enabled((environ.get("IMDB", "False")), False)
 SINGLE_BUTTON = is_enabled((environ.get("SINGLE_BUTTON", "True")), False)
 CUSTOM_FILE_CAPTION = environ.get(
-    "CUSTOM_FILE_CAPTION", "<b>📂 Fɪʟᴇ ɴᴀᴍᴇ : <i>{file_name}</i>\n════════※ ·❆· ※════════\n▫️ Mᴀɪɴ Cʜᴀɴɴᴇʟ : <a href="https://t.me/MOVIES_PROVIDE">Mᴏᴠɪᴇs Pʀᴏᴠɪᴅᴇ Uᴘᴅᴀᴛᴇs</a>\n▫️ Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ : <a href="https://t.me/MOVIES_PROVIDE2">Mᴏᴠɪᴇs Pʀᴏᴠɪᴅᴇ</a>\n════════※ ·❆· ※════════</b>"
+    "CUSTOM_FILE_CAPTION", "<b>📂 Fɪʟᴇ ɴᴀᴍᴇ : <i>{file_name}</i>\n════════※ ·❆· ※════════\n▫️ Mᴀɪɴ Cʜᴀɴɴᴇʟ : <a href="https://t.me/MOVIES_PROVIDE">Mᴏᴠɪᴇs Pʀᴏᴠɪᴅᴇ Uᴘᴅᴀᴛᴇs</a>\n▫️ Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ : <a href="https://t.me/MOVIES_PROVIDE2">Mᴏᴠɪᴇs Pʀᴏᴠɪᴅᴇ</a>\n════════※ ·❆· ※════════</b>")
 BATCH_FILE_CAPTION = environ.get(
-    "CUSTOM_FILE_CAPTION", "<b>📂 Fɪʟᴇ ɴᴀᴍᴇ : <i>{file_name}</i>\n════════※ ·❆· ※════════\n▫️ Mᴀɪɴ Cʜᴀɴɴᴇʟ : <a href="https://t.me/MOVIES_PROVIDE">Mᴏᴠɪᴇs Pʀᴏᴠɪᴅᴇ Uᴘᴅᴀᴛᴇs</a>\n▫️ Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ : <a href="https://t.me/MOVIES_PROVIDE2">Mᴏᴠɪᴇs Pʀᴏᴠɪᴅᴇ</a>\n════════※ ·❆· ※════════</b>"
+    "CUSTOM_FILE_CAPTION", "<b>📂 Fɪʟᴇ ɴᴀᴍᴇ : <i>{file_name}</i>\n════════※ ·❆· ※════════\n▫️ Mᴀɪɴ Cʜᴀɴɴᴇʟ : <a href="https://t.me/MOVIES_PROVIDE">Mᴏᴠɪᴇs Pʀᴏᴠɪᴅᴇ Uᴘᴅᴀᴛᴇs</a>\n▫️ Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ : <a href="https://t.me/MOVIES_PROVIDE2">Mᴏᴠɪᴇs Pʀᴏᴠɪᴅᴇ</a>\n════════※ ·❆· ※════════</b>")
 IMDB_TEMPLATE = environ.get(
     "IMDB_TEMPLATE", "🎞️ ᴛɪᴛᴛʟᴇ :  {title} \n🎗️ ᴘᴏᴡᴇʀᴇᴅ ʙʏ : @Movies_Provide")
 LONG_IMDB_DESCRIPTION = is_enabled(
