@@ -82,7 +82,7 @@ USER_DATABASE_NAME = environ.get("USER_DATABASE_NAME", "cluster0")
 LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "-1001524622686"))
 SUPPORT_CHAT = environ.get("SUPPORT_CHAT", "")
 P_TTI_SHOW_OFF = is_enabled((environ.get("P_TTI_SHOW_OFF", "True")), True)
-IMDB = is_enabled((environ.get("IMDB", "False")), False)
+IMDB = is_enabled((environ.get("IMDB", "True")), True)
 SINGLE_BUTTON = is_enabled((environ.get("SINGLE_BUTTON", "True")), False)
 CUSTOM_FILE_CAPTION = environ.get(
     "CUSTOM_FILE_CAPTION", "<b>📂 Nᴀᴍᴇ</b> : <i><b>{file_name}</b></i> \n\n <b>Jᴏɪɴ Nᴏᴡ :</b> <b>[Actual thing](https://t.me/+LL0gCYlzDnRjYmY1)</b>")
