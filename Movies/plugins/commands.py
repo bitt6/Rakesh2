@@ -325,7 +325,8 @@ async def start(client, message):
                 InlineKeyboardButton("🔴 𝗛𝗢𝗪 𝗧𝗢 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗 🔴", url=f'https://t.me/Notificationsactr/9')
             ]]
             reply_markup = InlineKeyboardMarkup(button)
-            return await emo.edit_text(text="𝘾𝙡𝙞𝙘𝙠 𝘽𝙚𝙡𝙤𝙬 𝙇𝙞𝙣𝙠 𝙊𝙣𝙘𝙚 𝘼𝙣𝙙 𝙀𝙣𝙟𝙤𝙮 𝙊𝙪𝙧 𝘽𝙤𝙩 𝙒𝙞𝙩𝙝𝙤𝙪𝙩 𝙇𝙞𝙣𝙠 𝙁𝙤𝙧 12 𝙃𝙤𝙪𝙧𝙨 😊👇", reply_markup=reply_markup)
+            return await emo.edit_text(text="ɪғ ʏᴏᴜ ʜᴀᴠᴇ ᴛᴏ ᴅᴏ ᴛʜɪs ᴘʀᴏᴄᴇss ᴏɴᴄᴇ. 
+ᴀғᴛᴇʀ ᴛʜᴀᴛ ʏᴏᴜ ᴡɪʟʟ ɢᴇᴛ ᴀᴅs ғʀᴇᴇ ᴍᴏᴠɪᴇs ғᴏʀ ᴛʜᴇ ᴡʜᴏʟᴇ ᴅᴀʏ.", reply_markup=reply_markup)
 
         files_ = await get_file_details(file_id)
         if not files_:
