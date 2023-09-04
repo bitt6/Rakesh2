@@ -17,7 +17,7 @@ def is_enabled(value, default):
 
 class script(object):
     HOME_BUTTONURL_UPDATES = environ.get(
-        "HOME_BUTTONURL_UPDATES", 'https://t.me/Tkyh5213')
+        "HOME_BUTTONURL_UPDATES", 'https://t.me/Rexisop99')
     START_TXT = environ.get("START_TXT", """
 
 ʜᴇʟʟᴏ {} ✨
@@ -34,12 +34,12 @@ class script(object):
 
     HELP_TXT = """ʜᴇʏ {}
 ʜᴇʀᴇ ɪs ʜᴇʟᴘ sᴇᴄᴛɪᴏɴ. ."""
-    ABOUT_TXT = """<b>ᴀʙᴏᴜᴛ ᴍᴇ <i>🤖 ᴍʏ ɴᴀᴍᴇ : <a href=https://t.me/><b>Akash</b></a>\n
-👨‍💻 ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href=https://t.me/Akash5213><b>Akash</b></a>\n
+    ABOUT_TXT = """<b>ᴀʙᴏᴜᴛ ᴍᴇ <i>🤖 ᴍʏ ɴᴀᴍᴇ : <a href=https://t.me/><b>Rᴀᴍʙᴏ</b></a>\n
+👨‍💻 ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href=https://t.me/Rexisop99><b>Rᴀᴍʙᴏ</b></a>\n
 📝 ʟᴀɴɢᴜᴀɢᴇ : ᴘʏʀᴏɢʀᴀᴍ\n
 📚 ꜰʀᴀᴍᴇᴡᴏʀᴋ : ᴘʏᴛʜᴏɴ 3\n
 📡 ʜᴏsᴛᴇᴅ ᴏɴ : ʜᴇʀᴏᴋᴜ\n
-📢 ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ : <a href=https://t.me/joearn><b></b>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>\n
+📢 ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ : <a href=https://t.me/MOVIES_PROVIDE><b></b>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>\n
 🌟 ᴠᴇʀsɪᴏɴ : ᴠ 4.0\n</b></i>"""
 
 
@@ -48,7 +48,7 @@ class script(object):
 
     SOURCE_TXT = """<b>ᴄʀᴇᴀᴛᴇ ᴏɴᴇ ʟɪᴋᴇ ᴛʜɪs:</b>
 • ᴡᴀɴᴛ ᴛᴏ ʀᴇᴘᴏ ᴏғ ᴛʜɪs ʙᴏᴛ ʙᴜᴅᴅʏ !! <b>
-• ᴄᴏɴᴛᴀᴄᴛ - [ᴀᴋᴀsʜ](t.me/Ah5213)<b>"""
+• ᴄᴏɴᴛᴀᴄᴛ - [ʀᴀᴍʙᴏ](t.me/Rexisop99)<b>"""
 
 
 
