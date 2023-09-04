@@ -307,10 +307,10 @@ async def start(client, message):
         if not verify:
             url = await get_shortlink(f"https://telegram.me/{temp.U_NAME}?start=uvew_{time_now}x_y_z{file_id}", chat_id)
             button = [[
-                InlineKeyboardButton("➥ Cʟɪᴄᴋ Hᴇʀᴇ Tᴏ Vᴇʀɪғʏ ✅",
+                InlineKeyboardButton("➥ 𝗖𝗟𝗜𝗖𝗞 𝗛𝗘𝗥𝗘 𝗧𝗢 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗 ❗",
                                      url=url)
             ],[
-                InlineKeyboardButton("♻ Hᴏᴡ Tᴏ Vᴇʀɪғʏ ♻", url=f'https://t.me/MOVIES_PROVIDE/11')
+                InlineKeyboardButton("🔴 𝗛𝗢𝗪 𝗧𝗢 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗 🔴", url=f'https://t.me/Notificationsactr/9')
                 
             ]]
             reply_markup = InlineKeyboardMarkup(button)
@@ -319,10 +319,10 @@ async def start(client, message):
         elif time_now - int(verify['time']) > 60*60*12:
             url = await get_shortlink(f"https://telegram.me/{temp.U_NAME}?start=uvew_{time_now}x_y_z{file_id}", chat_id)
             button = [[
-                InlineKeyboardButton("➥ Cʟɪᴄᴋ Hᴇʀᴇ Tᴏ Vᴇʀɪғʏ ✅",
+                InlineKeyboardButton("➥ 𝗖𝗟𝗜𝗖𝗞 𝗛𝗘𝗥𝗘 𝗧𝗢 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗 ❗",
                                      url=url)
             ],[
-                InlineKeyboardButton("♻ Hᴏᴡ Tᴏ Vᴇʀɪғʏ ♻", url=f'https://t.me/MOVIES_PROVIDE/11')
+                InlineKeyboardButton("🔴 𝗛𝗢𝗪 𝗧𝗢 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗 🔴", url=f'https://t.me/Notificationsactr/9')
             ]]
             reply_markup = InlineKeyboardMarkup(button)
             return await emo.edit_text(text="𝘾𝙡𝙞𝙘𝙠 𝘽𝙚𝙡𝙤𝙬 𝙇𝙞𝙣𝙠 𝙊𝙣𝙘𝙚 𝘼𝙣𝙙 𝙀𝙣𝙟𝙤𝙮 𝙊𝙪𝙧 𝘽𝙤𝙩 𝙒𝙞𝙩𝙝𝙤𝙪𝙩 𝙇𝙞𝙣𝙠 𝙁𝙤𝙧 12 𝙃𝙤𝙪𝙧𝙨 😊👇", reply_markup=reply_markup)
