@@ -1061,7 +1061,7 @@ async def advantage_spell_chok(client, message, srh_msg):
         ]
         reply_markup = InlineKeyboardMarkup(button)
         await srh_msg.edit_text(
-            text="<b>ᴏᴏᴘs ᴍᴏᴠɪᴇ ɴᴏᴛ ғᴏᴜɴᴅ 😳 ! \n\nᴘʟᴇᴀsᴇ sᴇᴀʀᴄʜ ʟɪᴋᴇ ᴛʜɪs 👇\n\nKgf 2 ✅\nKgf 2 hindi ✅\nKgf 2022 ✅</b>"
+            text="<b>ᴏᴏᴘs ᴍᴏᴠɪᴇ ɴᴏᴛ ғᴏᴜɴᴅ</b>"
         )
         await srh_msg.edit_reply_markup(reply_markup)
         await asyncio.sleep(30)
@@ -1095,7 +1095,7 @@ async def advantage_spell_chok(client, message, srh_msg):
             ]
             reply_markup = InlineKeyboardMarkup(button)
             await srh_msg.edit_text(
-                text="<b>ᴏᴏᴘs ᴍᴏᴠɪᴇ ɴᴏᴛ ғᴏᴜɴᴅ 😳 ! \n\nᴘʟᴇᴀsᴇ sᴇᴀʀᴄʜ ʟɪᴋᴇ ᴛʜɪs 👇\n\nKgf 2 ✅\nKgf 2 hindi ✅\nKgf 2022 ✅</b>"
+                text="<b>ᴏᴏᴘs ᴍᴏᴠɪᴇ ɴᴏᴛ ғᴏᴜɴᴅ 😳</b>"
             )
             await srh_msg.edit_reply_markup(reply_markup)
             await asyncio.sleep(30)
