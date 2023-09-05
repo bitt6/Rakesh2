@@ -1,4 +1,4 @@
-import os
+-import os
 import re
 from os import environ
 from pyrogram import Client 
@@ -89,7 +89,7 @@ CUSTOM_FILE_CAPTION = environ.get(
 BATCH_FILE_CAPTION = environ.get(
     "CUSTOM_FILE_CAPTION", "<b>📂 Nᴀᴍᴇ</b> : <i><b>{file_name}</b></i> \n\n <b>Jᴏɪɴ Nᴏᴡ :</b> <b>[Actual thing](https://t.me/+LL0gCYlzDnRjYmY1)</b>")
 IMDB_TEMPLATE = environ.get(
-    "IMDB_TEMPLATE", "🎞️ ᴛɪᴛᴛʟᴇ :  {title} \n🎗️ ᴘᴏᴡᴇʀᴇᴅ ʙʏ : @Actul_thing")
+    "IMDB_TEMPLATE", "<b>Query: {query}</b> \n‌‌‌‌IMDb Data:\n\n🏷 Title: <a href={url}>{title}</a>\n🎭 Genres: {genres}\n📆 Year: <a href={url}/releaseinfo>{year}</a>\n🌟 Rating: <a href={url}/ratings>{rating}</a> / 10")
 LONG_IMDB_DESCRIPTION = is_enabled(
     environ.get("LONG_IMDB_DESCRIPTION", "False"), False)
 SPELL_CHECK_REPLY = is_enabled(environ.get("SPELL_CHECK_REPLY", "True"), True)
@@ -134,7 +134,7 @@ ENABLE_SHORTLINK = bool(environ.get("False", True))
 
 # ---------------------» ᴀᴜᴛᴏ-ᴅᴇʟᴇᴛᴇ «--------------------- #
 
-SELF_DELETE_SECONDS = int(environ.get("SELF_DELETE_SECONDS", 6000000000000000))
+SELF_DELETE_SECONDS = int(environ.get("SELF_DELETE_SECONDS", 1800))
 SELF_DELETE = environ.get("SELF_DELETE", 0)
 if SELF_DELETE == "0":
     SELF_DELETE = 0
@@ -153,7 +153,7 @@ DOWNLOAD_TEXT_URL = "https://t.me/MOVIES_PROVIDE/11"
 # ---------------------» ᴜɴᴅᴇʀ-ʙᴜᴛᴛᴏɴs «--------------------- #
 
 CAPTION_BUTTON = "JOIN MY CHANNEL"
-CAPTION_BUTTON_URL = "https://t.me/MOVIES_PROVIDE"
+CAPTION_BUTTON_URL = "https://t.me/actual_thing"
 
 
 
