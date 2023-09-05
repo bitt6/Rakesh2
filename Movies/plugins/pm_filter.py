@@ -952,9 +952,8 @@ async def auto_filter(client, message):
     ])    
 
     btn.insert(0, [
-        InlineKeyboardButton("📥 ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ 📥",
-                             url=settings["tutorial"] if "tutorial" in settings else 'https://t.me/Waiting_Area12')
-    ])
+            InlineKeyboardButton('🔴 𝗛𝗢𝗪 𝗧𝗢 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗 🔴', url='https://t.me/Notificationsactr/9')
+        ])
     
     
 
